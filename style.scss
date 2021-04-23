@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  @font-face {
+    font-family: "Iceland";
+    src: url(./static/fonts/Iceland-Regular.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "Lobster";
+    src: url(/static/fonts/Lobster-Regular.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "Viga";
+    src: url(/static/fonts/Viga-Regular.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "Bruno Ace SC";
+    src: url(/static/fonts/BrunoAceSC-Regular.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "Righteous";
+    src: url(/static/fonts/Righteous-Regular.ttf) format("truetype");
+  }
+}
+@layer components {
+  #scrollMenu {
+    scroll-behavior: smooth;
+  }
+
+  #sideMenu {
+    right: -100vw;
+  }
+  #bonusCard::after {
+    content: " ";
+    position: absolute;
+    height: 8em;
+    width: 8em;
+    background-color: #edf2f7;
+    left: -1em;
+    top: -2.2em;
+    transform: rotate(45deg);
+    border-radius: 50%;
+  }
+  #bonusCard::before {
+    content: "";
+    position: absolute;
+    height: 5em;
+    width: 8em;
+    background-color: #edf2f7;
+    right: -1em;
+    top: -2.2em;
+    transform: rotate(-45deg);
+    border-radius: 50%;
+  }
+  #bonusCard div:first-child {
+    top: -2em;
+    z-index: 1;
+  }
+  button:active {
+    transform: scale(0.9);
+    outline: none !important;
+  }
+}

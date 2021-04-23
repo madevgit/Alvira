@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./image/logo.svg" type="image/x-icon">
+    <title>MA</title>
+    <link rel="stylesheet" href="./static/style/style.css">
+</head>
+<body
+    style="background: url('./static/image/landscape24.jpg'); background-size:cover;background-position: center; background-attachment: fixed;"
+    class="bg-gray-300 overflow-x-hidden max-h-screen overflow-y-scroll">
+        <main class="min-w-full">
+            <header id="headNav" class="h-24 w-full z-50 fixed">
+                <nav
+                    class=" flex max-w-screen-lg mx-auto transition-shadow duration-1000 justify-between h-full p-2 font-bold w-full">
+                    <a» href="index.html" class="text-purple-600 font-black text-6xl tracking-wide font-Lobster">
+                        Alvira </a>
+                </nav>
+            </header>
+            <div class="mx-auto">
+                <div id="wrapper" class="flex  min-h-screen items-center overflow-hidden">
+                    <div
+                        class="welcomeBox min-w-full relative tranform transition-all ease-in-out duration-700 md:duration-1000">
+                        <div class="relative h-full flex items-center justify-center">
+                            <div class="text-center absolute">
+                                <span class="mx-auto text-left text-4xl md:text-5xl lg:text-6xl lg:tracking-widest font-Viga uppercase">
+                                    Vivez vos rêves !
+                                </span>
+                                <p class="w-8/12 mx-auto font-Bruno font-bold text-xl md:text-2xl lg:text-3xl mt-12">
+                                    Partagez vos aventures avec vos proches !
+                                </p>
+                            </div>
+                            <button id="start"
+                                class="shadow-md mt-64 absolute -mb-32 block mx-auto p-2 rounded-lg bg-purple-600 font-bold text-gray-300">commencer</button>
+                        </div>
+                    </div>
+                    <div id="wrapperConnexionInscription"
+                        class="relative min-w-full h-screen flex items-center  tranform transition-all ease-in-out duration-700 md:duration-1000 max-w-screen-lg mx-auto">
+                        <button id="retour"
+                            class="absolute text-5xl font-Bruno -mt-64 mb-20 focus:outline-none left-0 block mx-auto px-2 py-1 rounded-full font-black"><</button>
+                        <div class="max-w-screen-md w-11/12 rounded-lg mx-auto mt-24 overflow-hidden">
+                            <div class="relative overflow-hidden h-24 bg-white flex-col">
+                                <p class="font-black text-center absolute font-Lobster mx-4 my-2 text-3xl">Alvira</p>
+                                <div id="panelInviteIns" class="w-11/12 py-1 max-h-full min-h-full overflow-hidden mx-auto justify-between flex flex-col items-center transform transition-all duration-700">
+                                    <div class="flex w-full justify-end">
+                                        <button
+                                        class="panelToggler bg-purple-400 rounded-full text-gray-200 p-2 h-10 block">Inscription</button>
+                                    </div>
+                                    <div class="text-center text-xs sm:text-base md:text-lg font-Viga w-12/12">
+                                        Partager votre passion!
+                                    </div>
+                                </div>
+                                <div id="panelInviteCon" class="w-11/12 py-1 max-h-full min-h-full overflow-hidden mx-auto justify-between flex flex-col items-center transform transition-all opacity-0 duration-700">
+                                    <div class="flex w-full justify-end">
+                                        <button
+                                        class="panelToggler bg-purple-400 rounded-full text-gray-200 p-2 h-10 block">Connexion</button>
+                                    </div>
+                                    <div class="text-center text-xs sm:text-base md:text-lg font-Viga w-8/12">
+                                        Commencer une nouvelle aventure avec vos alter-egos!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex flex-col h-64 overflow-hidden items-center bg-gray-200">
+                                <form id="connexionForm" class="flex-col pt-16 mx-auto min-h-full transition-all delay-700 transform duration-1000" action="">
+                                    <input type="text" class="block mx-auto w-11/12 mb-2 h-8 rounded-md px-2"
+                                        placeholder="Kilback@yahoo.com">
+                                    <div class="flex justify-between w-11/12 mx-auto mb-4">
+                                        <input type="password" name="password"
+                                            class="block mx-auto w-9/12 mb-2 h-8 rounded-md px-2"
+                                            placeholder="mot de passe" id="">
+                                        <button type="button">afficher</button>
+                                    </div>
+                                    <button class="block p-2 rounded-md mx-auto my-2 bg-purple-600 text-gray-200"
+                                        type="submit">Connexion</button>
+                                </form>
+                                <form id="inscriptionForm" class="flex-col mt-2 mx-auto min-h-full transition-all opacity-0 delay-700 transform duration-1000" action="">
+                                    <div class="w-11/12 mx-auto flex justify-between mb-2">
+                                        <input type="text" class="block mx-auto w-5/12  h-8 rounded-md px-2"
+                                            placeholder="Nom">
+                                        <input type="text" class="block mx-auto w-5/12 h-8 rounded-md px-2"
+                                            placeholder="Prénom">
+                                    </div>
+                                    <input type="text" class="block mx-auto w-11/12 mb-2 h-8 rounded-md px-2"
+                                        placeholder="Kilback@yahoo.com">
+                                    <input type="tel" class="block mx-auto w-11/12 mb-2 h-8 rounded-md px-2"
+                                        placeholder="533-421-0192">
+                                    <div class="flex justify-between w-8/12 mx-auto mb-4">
+                                        <select class="bg-gray-200" name="genre" id="">
+                                            <option selected>Genre</option>
+                                            <option value="homme">Homme</option>
+                                            <option value="femme">Femme</option>
+                                        </select>
+                                        <select class="bg-gray-200" name="genre" id="">
+                                            <option selected>Pays</option>
+                                            <option value="homme">Bénin</option>
+                                            <option value="femme">France</option>
+                                            <option value="homme">USA</option>
+                                            <option value="femme">Belgique</option>
+                                            <option value="femme">Nigéria</option>
+                                        </select>
+                                    </div>
+                                    <div class="flex justify-between w-11/12 mx-auto mb-2">
+                                        <input type="password" name="password"
+                                            class="block mx-auto w-9/12 mb-2 h-8 rounded-md px-2"
+                                            placeholder="mot de passe" id="">
+                                        <button type="button">afficher</button>
+                                    </div>
+                                    <button class="block p-2 rounded-md mx-auto my-2 bg-purple-600 text-gray-200"
+                                        type="submit">Inscription</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+
+                    </div>
+                </div>
+                <footer class="flex-col bg-gray-200 pt-4">
+                    <div class="flex-col w-11/12 text-sm md:text-xl mx-auto mb-4 max-w-screen-lg font-bold">
+                        <nav class="flex justify-between text-gray-900 mb-4 max-w-screen-md mx-auto">
+                            <a href="">Home</a>
+                            <a href="">Blog</a>
+                            <a href="">Spécifications</a>
+                            <a href="">FAQ</a>
+                            <a href="">Parteners</a>
+                        </nav>
+                        <nav class="flex justify-between text-gray-900 max-w-screen-md mx-auto">
+                            <a href="">Contactez Nous</a>
+                            <a href="">Terms d'utilisation</a>
+                            <a href="">Connetez-Vous?</a>
+                        </nav>
+                    </div>
+                    <div class="flex-col mx-auto w-11/12 justify-center">
+                        <div class="text-sm text-center text-purple-600 mb-4">
+                            Nous prénons engagement à vous offrir un service de qualité, securisé à un prix abordable
+                        </div>
+                        <div class="flex justify-between w-8/12 lg:w-3/12 max-w-screen-sm mx-auto">
+                            <a class="bg-gray-200 rounded-full" href=""><img class="w-12 h-12 rounded-full p-2"
+                                    src="./static/image/social/facebook-logo.svg" alt=""></a>
+                            <a class="bg-gray-200 rounded-full" href=""><img class="w-12 h-12 rounded-full p-2"
+                                    src="./static/image/social/telegram-logo.svg" alt=""></a>
+                            <a class="bg-gray-200 rounded-full" href=""><img class="w-12 h-12 rounded-full p-2"
+                                    src="./static/image/social/tumblr-logo.svg" alt=""></a>
+                            <a class="bg-gray-200 rounded-full" href=""><img class="w-12 h-12 rounded-full p-2"
+                                    src="./static/image/social/twitter-logo.svg" alt=""></a>
+                        </div>
+                        <div class="text-2xl font-bold mx-auto text-center">
+                            <span class="text-purple-800 text-4xl">©</span> <span>Copyright</span>
+                        </div>
+                    </div>
+                    <footer />
+            </div>
+        </main>
+    <script src="./static/js/jquery-3.4.1.min.js"></script>
+    <script src="./static/js/index.js"></script>
+</body>
+
+</html>

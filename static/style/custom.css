@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Iceland";
+  src: url(/fonts/Iceland-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Lobster";
+  src: url(/fonts/Lobster-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Viga";
+  src: url(/fonts/Viga-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Bruno Ace SC";
+  src: url(/fonts/BrunoAceSC-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Righteous";
+  src: url(/fonts/Righteous-Regular.ttf) format("truetype");
+}

@@ -1,0 +1,114 @@
+<nav id="sideMenu" class="z-50 min-w-full max-w-full fixed bg-gray-300">
+    <div id="buttonBox" class="flex justify-around">
+        <button class="my-4 font-black font-Bruno text-4xl w-8 h-8 p-2" id="closeSideMenu"> < </button>
+    </div>
+    <div id="Profil" class=" text-gray-500  px-2">
+        <div class=" w-full flex justify-between px-4 shadow-md rounded-lg border-gray-400 py-2">
+            <span class="shadow-inner rounded-full overflow-hidden  w-16 h-16 block mt-1"><img
+                    class="shadow-inner" src="./image/avatars/helen.jpg" alt=""></span>
+            <span class="leading-loose text-gray-800 font-bold block mt-4">Daniel Salam</span>
+            <span class="h-8 w-8 leading-loose text-red-900  block mt-4">
+                <img class="w-full h-full p-1" src="./image/fonts/solid/sign-out-alt.svg" alt="">
+            </span>
+        </div>
+    </div>
+    <div class="menu mt-4 overflow-x-hidden">
+        <div id="tabs"
+            class="links shadow-lg p-1 h-12 flex justify-between text-purple-600 font-bold font-sans text-md px-5">
+            <a class="block p-1 h-8 w-auto shadow-inner bg-gray-200 rounded-md" href="">Historique</a>
+            <a class="block p-1 h-8 w-auto" href="">Bonus</a>
+            <a class="block p-1 h-8 w-auto" href="">Assistance</a>
+        </div>
+        <div id="scrollMenu" class="menuContents overflow-y-scroll h-screen bg-gray-200 flex overflow-x-hidden">
+            <div id="historique" class="h-screen min-w-full max-w-full">
+                <div id="cardHisto" class="h-24 w-24 rounded-full m-2 bg-white p-4  shadow-lg mx-auto">
+                    <img class="h-full w-full p-2 block mx-auto" src="./3587790-business/svg/032-planning.svg"
+                        alt="">
+                </div>
+                <table border="1" class="mx-auto w-10/12 text-center" cellspacing="0">
+                    <thead class="font-bold text-md text-black">
+                      <tr>
+                        <th>N°</th>
+                        <th>Lieu Visité</th>
+                        <th>Coût</th>
+                        <th>Durée</th>
+                        <th>Raison</th>
+                      </tr>
+                    </thead>
+                    <tbody class="font-normal text-gray-600">
+                      <tr>
+                        <td>01</td>
+                        <td>Porto-Novo</td>
+                        <td>5000$</td>
+                        <td>2 mois</td>
+                        <td>Vacances</td>
+                      </tr>
+            
+                      <tr>
+                        <td>02</td>
+                        <td>New York</td>
+                        <td>50000$</td>
+                        <td>2 mois</td>
+                        <td>Mariage</td>
+                      </tr>
+            
+                      <tr>
+                        <td>03</td>
+                        <td>Paris</td>
+                        <td>8000$</td>
+                        <td>5 mois</td>
+                        <td>Affaires</td>
+                      </tr>
+            
+                      <tr>
+                        <td>01</td>
+                        <td>Lagos</td>
+                        <td>4000$</td>
+                        <td>6 mois</td>
+                        <td>Safari</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+            <div id="parrainage" class="h-screen min-w-full">
+                <div id="bonusCard" class=" w-48 mx-auto relative shadow-md mb-4 p-2 bg-gray-100 rounded-lg">
+                    <div class="absolute flex">
+                        <img class="w-12 h-16 mx-auto block mt-8" src="./3533506-finance/svg/014-profit.svg"
+                            alt="">
+                        <div class="mt-10 text-lg text-orange-00 font-extrabold">
+                            <h1>Bonus de Partage</h1>
+                        </div>
+                    </div>
+                    <div class="mt-20 relative text-center">
+                        <span class="font-extrabold text-2xl">8000</span> <span
+                            class="absolute inline-block  font-extrabold text-xs h-4 w-8 text-gray-200 bg-purple-600 rounded-full top-0">$</span>
+                    </div>
+                </div>
+                <table border="1" class="mx-auto w-3/4 text-center" cellspacing="0">
+                    <thead class="font-extrabold text-md text-black ">
+                        <tr>
+                            <th>N°</th>
+                            <th>retrait de Bonus</th>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <th></th>
+
+                        </tr>
+                    </thead>
+                    <tbody class="font-hairline">
+                        <tr>
+                            <td>01</td>
+                            <td>400$</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="assistance" class="h-screen min-w-full flex items-center">
+               <div class="bg-red-400 ml-24 w-6/12 h-32 text-2xl text-center p-4 font-black rounded-lg mx-auto text-gray-200 -mt-64">
+                Custom Service not available yet
+               </div>
+            </div>
+        </div>
+    </div>
+</nav>
